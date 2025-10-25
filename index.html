@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techcracy 2025</title>
+    <link rel="icon" type="image/png" href="public/character.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -87,7 +88,7 @@
                     setTimeout(() => {
                         // Show Techcracy in different languages
                         shuffleTextSequence(
-                            ['テククラシー /25', 'টেকক্রেসি /25', 'TECHCRAZY/25'],
+                            ['テククラシー /25', 'টেকক্রেসি /25', 'TECHCRACY/25'],
                             20,
                             () => {
                                 setTimeout(removeLetters, 500);
@@ -114,7 +115,7 @@
                 <li class="navigation__item"><a href="#home" class="navigation__link">Home</a></li>
                 <li class="navigation__item"><a href="#events" class="navigation__link">Events</a></li>
                 <li class="navigation__item"><a href="team.html" class="navigation__link">Team</a></li>
-                <li class="navigation__item"><a href="#merchandise" class="navigation__link">MERCHANDISE</a></li>
+                <li class="navigation__item"><a href="#merchandiseDemo" class="navigation__link">MERCHANDISE</a></li>
 
         </nav>
     </div>
@@ -138,15 +139,37 @@
         <h1 id="events-title">EVENTS</h1>
         <div class="events-container">
             <div class="left-events">
-                <div class="event">Event 1</div>
-                <div class="event">Event 2</div>
+                <div class="event">
+                    <h3>Cutural</h3>
+                    <ul>
+                        <li>Flash Mob</li>
+                        <li>TALENT SHOW and Variety Show</li>
+                        <li>Group DANCE by Students</li>
+                        <li>DJ Night</li>
+                        <li>Ramdhenu Bihu Dol + Bagurumba</li>
+
+                    </ul>
+                </div>
             </div>
             <div class="character">
                 <img src="public/character.png" alt="Character">
             </div>
             <div class="right-events">
-                <div class="event">Event 3</div>
-                <div class="event">Event 4</div>
+                <div class="event">
+                    <h3>Competition</h3>
+                    <ul>
+                        <li>Line Follower</li>
+                        <li>Technical Exhibition</li>
+                        <li>Pitchathon</li>
+                        <li>Technical Quiz</li>
+                        <li>Robo Scoccer</li>
+                        <li>Robo Racer</li>
+                        <li>Antha Prerna</li>
+                        <li>Automation Technical Competition</li>
+                        <li>INSOMNIA Live Stream</li>
+
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -338,7 +361,8 @@
             document.body.style.setProperty('--grayscale', progress);
         });
     </script>
-    <div id="merchandiseDemo">
+    <div class="empty"></div>
+    <section id="merchandiseDemo">
         <h1 id="merch-title">MERCHANDISE</h1>
         <div class="merch-container">
             <div class="merch-item">
@@ -352,8 +376,8 @@
                 <h3>WHITE T-Shirt</h3>
             </div>
         </div>
-    </div>
-    <div class="designTechcracy">
+    </section>
+    <!-- <div class="designTechcracy">
         <div class="leftDesign">
             <div class="line"></div>
             <div class="text">2025</div>
@@ -366,7 +390,7 @@
             <div class="circle"></div>
 
         </div>
-    </div>
+    </div> -->
     <footer class="wrapper">
         <div class="logo">
             <img src="public/character.png" alt="Techcracy Logo">
@@ -384,7 +408,7 @@
         </div>
         <div class="social">
             <h3>Follow Us:</h3>
-            <a href="#"><svg id="instagram" viewBox="0 0 448 512">
+            <a href="https://www.instagram.com/techcracy.citk/"><svg id="instagram" viewBox="0 0 448 512">
                     <path
                         d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
                 </svg></a>
@@ -403,8 +427,8 @@
             <div class="links">
                 <a href="#home">Home</a>
                 <a href="#events">Events</a>
-                <a href="#team">Team</a>
-                <a href="#merchandise">Merchandise</a>
+                <a href="team.html">Team</a>
+                <a href="#merchandiseDemo">Merchandise</a>
             </div>
         </div>
         <div class="contact">
@@ -413,8 +437,8 @@
         </div>
         <div class="credits">
             <p id="copyright">&copy; 2025 Techcracy</p>
-            <p>Designed and Developed by <a href="https://www.linkedin.com/in/kinjal-kavish-boro-b014aa317/">Kinjal
-                    Kavish Boro</a> and <a href="https://www.linkedin.com/in/dibyojit-paul/">Dibyojit Paul</a></p>
+            <p>Designed and Developed by <a href="https://www.linkedin.com/in/dibyojit-paul/">Dibyojit Paul</a> and <a
+                    href="https://www.linkedin.com/in/kinjal-kavish-boro-b014aa317/">Kinjal Kavish Boro</a></p>
         </div>
     </footer>
 </body>
